@@ -1,7 +1,4 @@
-- 👋 Hi, I’m @DevBehindYou
-- 👀 I’m interested in android development
-- 🌱 I’m currently learning flutter framework, firebase, supabase and UI/UX designing
-- 💞️ I’m looking to collaborate on different projects to encrease my EXP level
+# Ensync Notes Project
 - 📫 How to reach me can reach me from email: ashutoshsept20@gmail.com
 - Ongoing Private Project.
 - source code will available soon.
@@ -10,5 +7,6 @@
 ![GridArt_20231205_201502922_1](https://github.com/DevBehindYou/Ensync-Private_Notes_Project/assets/147663456/360f2647-b902-47cf-8032-9dc5f690bc2b)
 - application is build with beautifull UI and User friendly design.
 ![GridArt_20231205_201650511_1](https://github.com/DevBehindYou/Ensync-Private_Notes_Project/assets/147663456/c093955a-6bbd-4378-b0d2-3ebc85f7001a)
-![GridArt_20231205_201742441](https://github.com/DevBehindYou/Ensync-Private_Notes_Project/assets/147663456/23392fd3-67ef-4d69-b933-93ef96a39661)
+
+
 
