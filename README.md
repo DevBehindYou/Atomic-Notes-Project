@@ -8,6 +8,7 @@ __________________________________________________________________
 - For the safety of notes, cloud backup is available in the application with a fast cloud sync function. 
 - The application is packed with a beautiful UI and user-friendly design.
 - Optimized and power-full.
-![Atomic_portrait](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/e890eea8-5130-48b3-964b-2d17a89c89e1)
+![Atomic_portrait](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/2470fc01-30fa-404c-9266-95c060d7850d)
+
 
 
