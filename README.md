@@ -3,6 +3,16 @@
 - Ongoing Project.
 - source code will available soon.
 __________________________________________________________________
+All you need is a simple yet effective note-taking application
+
+#No Tracking
+
+#No Data Thefting
+
+#No Permission Required
+
+#Your Data, Your control
+
 - A note application with offline and online cloud storage synchronization. application will provide encryption over personal data and real-time cloud sync. This note application will give the user total control over their personal data.
 - The application comes with offline local storage, so you can access your notes at any time without an internet connection.
 - For the safety of notes, cloud backup is available in the application with a fast cloud sync function. 
