@@ -1,6 +1,6 @@
 # Atomic Notes Project
 
-- 📫 You can reach me from email: ashutoshsept20@gmail.com
+- 📫 You can reach me from email: DevBehindYou@gmail.com
 - Ongoing Project.
 - source code will available soon.
 __________________________________________________________________
