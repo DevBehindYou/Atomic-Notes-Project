@@ -22,6 +22,7 @@ All you need is a simple yet effective note-taking application
 - The application is packed with a beautiful UI and user-friendly design.
 - Optimized and power-full.
 
-![pic01](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/9ae98ece-17bf-42d1-925b-8f9beab61de0)
+![pic](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/e2fc832e-e19a-4b50-bf05-4acb54c26e62)
+
 
 
