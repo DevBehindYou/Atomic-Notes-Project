@@ -1,5 +1,4 @@
 # Atomic Notes Project
-
 - 📫 You can reach me from email: DevBehindYou@gmail.com
 - Ongoing Project.
 - source code will available soon.
