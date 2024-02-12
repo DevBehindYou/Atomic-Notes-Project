@@ -22,7 +22,9 @@ All you need is a simple yet effective note-taking application
 - For the safety of notes, cloud backup is available in the application with a fast cloud sync function. 
 - The application is packed with a beautiful UI and user-friendly design.
 - Optimized and power-full.
-![mock](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/de586ee7-1303-42ba-8bfc-49a633cc1507)
+![mock](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/ee81f9b8-cdcf-4859-8e75-c2161d61c19e)
+
+![mock2](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/a1a06f2b-f2c8-48e1-9bbc-a8955209b077)
 
 
 
