@@ -21,57 +21,18 @@ All you need is a simple yet effective note-taking application
 - Optimized and power-full.
 ![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
 
-
 # Roadmap:
 
-Play Store Launch:
+- Play Store Launch:
 
 Aim to launch the app on the Google Play Store to reach a wider audience.
 Follow platform-specific guidelines for app submission and optimization.
 
-Platform Independence:
+- Platform Independence:
 
 Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
 Ensure consistent features and user experience across all platforms.
 Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
-
-# AES encryption
-
-Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
-
-  final plaintext = Uint8List.fromList(utf8.encode(message));
-  
-  final paddedPlaintext = padPlaintext(plaintext);
-
-  final cipher = CBCBlockCipher(AESFastEngine())
-    ..init(
-      true,
-      ParametersWithIV(KeyParameter(key), iv),
-    );
-
-  return cipher.process(Uint8List.fromList(paddedPlaintext));
-}
-
-Uint8List padPlaintext(Uint8List plaintext) {
-
-  final blockSize = 16;
-  final paddedLength = blockSize * ((plaintext.length + blockSize - 1) ~/ blockSize);
-  final paddingLength = paddedLength - plaintext.length;
-  final paddedPlaintext = Uint8List(paddedLength)..setAll(0, plaintext);
-  paddedPlaintext.fillRange(plaintext.length, paddedLength, paddingLength);
-  return paddedPlaintext;
-}
-
-void main() {
-
-  final key = Uint8List.fromList(utf8.encode('your_secret_key_here'));
-  final iv = Uint8List(16); // Initialization Vector
-  final message = 'your_note_here';
-
-  final encryptedMessage = encryptMessage(key, iv, message);
-  print('Encrypted message: ${base64.encode(encryptedMessage)}');
-}
-
 
 # Known Issues:
 
@@ -116,16 +77,54 @@ If instability occurs after lock removal, consider re-enabling it or contacting 
 Implement security measures to prevent brute-force attacks on non-biometric devices.
 Educate users on password strength and recommend enabling device lock for added security.
 
-- System Requirements:
+# System Requirements:
 
 Operating System: Android, ios comming soon 
 Minimum SDK Level: 23 (Android 6.0, Marshmallow)
 Recommended SDK Level: 32 (Android 12, S)
 Hardware: arm64v8 or armv7, Compatible with devices running Android 6.0 or later
 
-- Dependencies:
+# Dependencies:
 
 flutter_lints dbms google_nav_bar hive hive_flutter lutter_slidable flutter_svg provider flutter_staggered_grid_view connectivity_plus smooth_page_indicator cupertino_icons local_auth encrypt
+
+# AES encryption
+
+Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
+
+  final plaintext = Uint8List.fromList(utf8.encode(message));
+  
+  final paddedPlaintext = padPlaintext(plaintext);
+
+  final cipher = CBCBlockCipher(AESFastEngine())
+    ..init(
+      true,
+      ParametersWithIV(KeyParameter(key), iv),
+    );
+
+  return cipher.process(Uint8List.fromList(paddedPlaintext));
+}
+
+Uint8List padPlaintext(Uint8List plaintext) {
+
+  final blockSize = 16;
+  final paddedLength = blockSize * ((plaintext.length + blockSize - 1) ~/ blockSize);
+  final paddingLength = paddedLength - plaintext.length;
+  final paddedPlaintext = Uint8List(paddedLength)..setAll(0, plaintext);
+  paddedPlaintext.fillRange(plaintext.length, paddedLength, paddingLength);
+  return paddedPlaintext;
+}
+
+void main() {
+
+  final key = Uint8List.fromList(utf8.encode('your_secret_key_here'));
+  final iv = Uint8List(16); // Initialization Vector
+  final message = 'your_note_here';
+
+  final encryptedMessage = encryptMessage(key, iv, message);
+  print('Encrypted message: ${base64.encode(encryptedMessage)}');
+}
+
 
 
 
