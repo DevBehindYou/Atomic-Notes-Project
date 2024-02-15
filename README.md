@@ -1,7 +1,7 @@
 # Atomic Notes Project
 ![image](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/a6519e43-0e3e-4ce6-aebe-d508a1aadf97)
 
-All you need is a simple yet effective note-taking application
+All you need is a simple yet effective note application. Atomic Notes is a robust and user-friendly note-taking application designed to prioritize security and convenience. With powerful encryption, cloud sync capabilities, and intuitive features, Atomic Notes ensures that your notes are protected and easily accessible wherever you go.
 
 #No Tracking
 #No Data Thefting
@@ -20,6 +20,22 @@ __________________________________________________________________
 - 📫 You can reach me from email: DevBehindYou@gmail.com
 - Ongoing Project.
 - source code will available soon.
+
+# Features:
+
+Security:
+  
+- AES 256-bit Encryption:
+
+All notes are encrypted using AES 256-bit encryption, providing maximum security for your sensitive information.
+
+- Biometric Authentication:
+
+Secure your notes with biometric authentication (fingerprint or face recognition) for effortless yet robust protection.
+
+- User-Controlled Cloud Backup:
+
+Manage and delete your cloud backups directly from the app, ensuring complete control over your data's privacy.
 
 # Roadmap:
 
