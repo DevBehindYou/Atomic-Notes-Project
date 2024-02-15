@@ -26,14 +26,31 @@ All you need is a simple yet effective note-taking application
 
 Play Store Launch:
 
-Aim to launch the app on the Google Play Store to reach a wider audience.
-Follow platform-specific guidelines for app submission and optimization.
+>>Aim to launch the app on the Google Play Store to reach a wider audience.
+>>Follow platform-specific guidelines for app submission and optimization.
 
 Platform Independence:
 
-Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
-Ensure consistent features and user experience across all platforms.
-Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
+>>Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
+>>Ensure consistent features and user experience across all platforms.
+>>Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
+
+# Known Issues:
+
+Sync Errors:
+
+Sync errors may occur due to unstable internet connections.
+Manual sync option available to mitigate automatic sync failures.
+
+Biometric Authentication:
+
+Biometric authentication enhances security but may encounter issues on unsupported devices or versions.
+Removing device lock can lead to app instability or crashes, especially on older Android versions.
+
+Multiple Password Attempts:
+
+Non-biometric devices, particularly pre-Android 9 versions, may be vulnerable to multiple password attempts.
+Consider implementing additional security measures or limiting login attempts to mitigate risks.
 
 # Troubleshooting:
 >App Stability:
