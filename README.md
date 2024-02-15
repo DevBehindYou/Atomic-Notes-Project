@@ -90,6 +90,8 @@ flutter_lints dbms google_nav_bar hive hive_flutter lutter_slidable flutter_svg 
 
 # AES encryption
 
+- key[32bit] + vi[16bit]
+- base64 + base32
 Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
 
   final plaintext = Uint8List.fromList(utf8.encode(message));
@@ -108,20 +110,28 @@ Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
 Uint8List padPlaintext(Uint8List plaintext) {
 
   final blockSize = 16;
+  
   final paddedLength = blockSize * ((plaintext.length + blockSize - 1) ~/ blockSize);
+  
   final paddingLength = paddedLength - plaintext.length;
+  
   final paddedPlaintext = Uint8List(paddedLength)..setAll(0, plaintext);
+  
   paddedPlaintext.fillRange(plaintext.length, paddedLength, paddingLength);
+  
   return paddedPlaintext;
 }
 
 void main() {
 
   final key = Uint8List.fromList(utf8.encode('your_secret_key_here'));
+  
   final iv = Uint8List(16); // Initialization Vector
+  
   final message = 'your_note_here';
 
   final encryptedMessage = encryptMessage(key, iv, message);
+  
   print('Encrypted message: ${base64.encode(encryptedMessage)}');
 }
 
