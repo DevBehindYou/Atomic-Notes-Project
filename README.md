@@ -38,7 +38,9 @@ Leverage cross-platform development frameworks like Flutter or React Native for 
 # AES encryption
 
 Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
+
   final plaintext = Uint8List.fromList(utf8.encode(message));
+  
   final paddedPlaintext = padPlaintext(plaintext);
 
   final cipher = CBCBlockCipher(AESFastEngine())
@@ -67,6 +69,7 @@ void main() {
   final encryptedMessage = encryptMessage(key, iv, message);
   print('Encrypted message: ${base64.encode(encryptedMessage)}');
 }
+
 
 # Known Issues:
 
