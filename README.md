@@ -31,7 +31,7 @@ Play Store Launch:
 
 Platform Independence:
 
->>Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
+<Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
 >>Ensure consistent features and user experience across all platforms.
 >>Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
 
