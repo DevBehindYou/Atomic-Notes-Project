@@ -35,6 +35,7 @@ Develop web, iOS, Android, and Windows versions of the app to cater to diverse u
 Ensure consistent features and user experience across all platforms.
 Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
 
+# AES encryption
 
 Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
   final plaintext = Uint8List.fromList(utf8.encode(message));
