@@ -19,13 +19,9 @@ All you need is a simple yet effective note-taking application
 - For the safety of notes, cloud backup is available in the application with a fast cloud sync function. 
 - The application is packed with a beautiful UI and user-friendly design.
 - Optimized and power-full.
-
 ![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
-
-
-
--System Requirements: 
-Operating System: Android, ios comming soon 
+-System Requirements:
+-Operating System: Android, ios comming soon 
 Minimum SDK Level: 23 (Android 6.0, Marshmallow)
 Recommended SDK Level: 32 (Android 12, S)
 Hardware: arm64v8 or armv7, Compatible with devices running Android 6.0 or later
