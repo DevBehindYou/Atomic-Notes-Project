@@ -53,6 +53,7 @@ Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
 }
 
 Uint8List padPlaintext(Uint8List plaintext) {
+
   final blockSize = 16;
   final paddedLength = blockSize * ((plaintext.length + blockSize - 1) ~/ blockSize);
   final paddingLength = paddedLength - plaintext.length;
@@ -62,6 +63,7 @@ Uint8List padPlaintext(Uint8List plaintext) {
 }
 
 void main() {
+
   final key = Uint8List.fromList(utf8.encode('your_secret_key_here'));
   final iv = Uint8List(16); // Initialization Vector
   final message = 'your_note_here';
@@ -73,48 +75,48 @@ void main() {
 
 # Known Issues:
 
-Sync Errors:
+- Sync Errors:
 
 Sync errors may occur due to unstable internet connections.
 Manual sync option available to mitigate automatic sync failures.
 
-Biometric Authentication:
+- Biometric Authentication:
 
 Biometric authentication enhances security but may encounter issues on unsupported devices or versions.
 Removing device lock can lead to app instability or crashes, especially on older Android versions.
 
-Multiple Password Attempts:
+- Multiple Password Attempts:
 
 Non-biometric devices, particularly pre-Android 9 versions, may be vulnerable to multiple password attempts.
 Consider implementing additional security measures or limiting login attempts to mitigate risks.
 
 # Troubleshooting:
->App Stability:
+- App Stability:
 App crashes are minimized, but if encountered, ensure the latest version is installed.
 If crashes persist, provide device details and steps to reproduce for support.
 >
->Sync Errors:
+- Sync Errors:
 Unstable internet connections may lead to sync errors. Verify network stability.
 Manually trigger sync if automatic sync fails to resolve temporary network issues.
 >
->Biometric Authentication:
+- Biometric Authentication:
 Biometric authentication enhances security. Ensure device and app support.
 If authentication issues arise, re-enroll biometric data and verify app permissions.
 >
->Device Lock Removal:
+- Device Lock Removal:
 Removing device lock can cause app instability or crashes. Recommend keeping it enabled.
 If instability occurs after lock removal, consider re-enabling it or contacting support.
 >
->Multiple Password Attempts:
+- Multiple Password Attempts:
 Implement security measures to prevent brute-force attacks on non-biometric devices.
 Educate users on password strength and recommend enabling device lock for added security.
 
--System Requirements: Operating System: Android, ios comming soon 
+- System Requirements: Operating System: Android, ios comming soon 
 Minimum SDK Level: 23 (Android 6.0, Marshmallow)
 Recommended SDK Level: 32 (Android 12, S)
 Hardware: arm64v8 or armv7, Compatible with devices running Android 6.0 or later
 
--Dependencies: flutter_lints dbms google_nav_bar hive hive_flutter lutter_slidable flutter_svg provider flutter_staggered_grid_view connectivity_plus smooth_page_indicator cupertino_icons local_auth encrypt
+- Dependencies: flutter_lints dbms google_nav_bar hive hive_flutter lutter_slidable flutter_svg provider flutter_staggered_grid_view connectivity_plus smooth_page_indicator cupertino_icons local_auth encrypt
 
 
 
