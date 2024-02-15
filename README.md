@@ -25,72 +25,43 @@ __________________________________________________________________
 
 Security:
   
-- AES 256-bit Encryption:
+- AES 256-bit Encryption: All notes are encrypted using AES 256-bit encryption, providing maximum security for your sensitive information.
 
-All notes are encrypted using AES 256-bit encryption, providing maximum security for your sensitive information.
+- Biometric Authentication: Secure your notes with biometric authentication (fingerprint or face recognition) for effortless yet robust protection.
 
-- Biometric Authentication:
+- User-Controlled Cloud Backup: Manage and delete your cloud backups directly from the app, ensuring complete control over your data's privacy.
 
-Secure your notes with biometric authentication (fingerprint or face recognition) for effortless yet robust protection.
+# Future Roadmap:
 
-- User-Controlled Cloud Backup:
+- Expansion: We plan to launch SecureNote on the Google Play Store, expanding our reach to a wider audience.
 
-Manage and delete your cloud backups directly from the app, ensuring complete control over your data's privacy.
-
-# Roadmap:
-
-- Play Store Launch:
-
-Aim to launch the app on the Google Play Store to reach a wider audience.
-Follow platform-specific guidelines for app submission and optimization.
-
-- Platform Independence:
-
-Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
-Ensure consistent features and user experience across all platforms.
-Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
+- Platform Independence: In the future, we aim to develop SecureNote for various platforms, including web, iOS, Android, and Windows, to cater to diverse user preferences.
 
 # Known Issues:
 
-- Sync Errors:
-
-Sync errors may occur due to unstable internet connections.
+- Sync Errors: Sync errors may occur due to unstable internet connections.
 Manual sync option available to mitigate automatic sync failures.
 
-- Biometric Authentication:
-
-Biometric authentication enhances security but may encounter issues on unsupported devices or versions.
+- Biometric Authentication: Biometric authentication enhances security but may encounter issues on unsupported devices or versions.
 Removing device lock can lead to app instability or crashes, especially on older Android versions.
 
-- Multiple Password Attempts:
-
-Non-biometric devices, particularly pre-Android 9 versions, may be vulnerable to multiple password attempts.
+- Multiple Password Attempts: Non-biometric devices, particularly pre-Android 9 versions, may be vulnerable to multiple password attempts.
 Consider implementing additional security measures or limiting login attempts to mitigate risks.
 
 # Troubleshooting:
-- App Stability:
-
-App crashes are minimized, but if encountered, ensure the latest version is installed.
+- App Stability: App crashes are minimized, but if encountered, ensure the latest version is installed.
 If crashes persist, provide device details and steps to reproduce for support.
 
-- Sync Errors:
-
-Unstable internet connections may lead to sync errors. Verify network stability.
+- Sync Errors: Unstable internet connections may lead to sync errors. Verify network stability.
 Manually trigger sync if automatic sync fails to resolve temporary network issues.
 
-- Biometric Authentication:
-
-Biometric authentication enhances security. Ensure device and app support.
+- Biometric Authentication: Biometric authentication enhances security. Ensure device and app support.
 If authentication issues arise, re-enroll biometric data and verify app permissions.
 
-- Device Lock Removal:
-
-Removing device lock can cause app instability or crashes. Recommend keeping it enabled.
+- Device Lock Removal: Removing device lock can cause app instability or crashes. Recommend keeping it enabled.
 If instability occurs after lock removal, consider re-enabling it or contacting support.
 
-- Multiple Password Attempts:
-
-Implement security measures to prevent brute-force attacks on non-biometric devices.
+- Multiple Password Attempts: Implement security measures to prevent brute-force attacks on non-biometric devices.
 Educate users on password strength and recommend enabling device lock for added security.
 
 # System Requirements:
