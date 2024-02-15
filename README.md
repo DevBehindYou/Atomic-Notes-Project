@@ -92,31 +92,40 @@ Consider implementing additional security measures or limiting login attempts to
 
 # Troubleshooting:
 - App Stability:
+
 App crashes are minimized, but if encountered, ensure the latest version is installed.
 If crashes persist, provide device details and steps to reproduce for support.
->
+
 - Sync Errors:
+
 Unstable internet connections may lead to sync errors. Verify network stability.
 Manually trigger sync if automatic sync fails to resolve temporary network issues.
->
+
 - Biometric Authentication:
+
 Biometric authentication enhances security. Ensure device and app support.
 If authentication issues arise, re-enroll biometric data and verify app permissions.
->
+
 - Device Lock Removal:
+
 Removing device lock can cause app instability or crashes. Recommend keeping it enabled.
 If instability occurs after lock removal, consider re-enabling it or contacting support.
->
+
 - Multiple Password Attempts:
+
 Implement security measures to prevent brute-force attacks on non-biometric devices.
 Educate users on password strength and recommend enabling device lock for added security.
 
-- System Requirements: Operating System: Android, ios comming soon 
+- System Requirements:
+
+Operating System: Android, ios comming soon 
 Minimum SDK Level: 23 (Android 6.0, Marshmallow)
 Recommended SDK Level: 32 (Android 12, S)
 Hardware: arm64v8 or armv7, Compatible with devices running Android 6.0 or later
 
-- Dependencies: flutter_lints dbms google_nav_bar hive hive_flutter lutter_slidable flutter_svg provider flutter_staggered_grid_view connectivity_plus smooth_page_indicator cupertino_icons local_auth encrypt
+- Dependencies:
+
+flutter_lints dbms google_nav_bar hive hive_flutter lutter_slidable flutter_svg provider flutter_staggered_grid_view connectivity_plus smooth_page_indicator cupertino_icons local_auth encrypt
 
 
 
