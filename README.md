@@ -26,14 +26,46 @@ All you need is a simple yet effective note-taking application
 
 Play Store Launch:
 
->>Aim to launch the app on the Google Play Store to reach a wider audience.
->>Follow platform-specific guidelines for app submission and optimization.
+Aim to launch the app on the Google Play Store to reach a wider audience.
+Follow platform-specific guidelines for app submission and optimization.
 
 Platform Independence:
 
-<Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
->>Ensure consistent features and user experience across all platforms.
->>Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
+Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
+Ensure consistent features and user experience across all platforms.
+Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
+
+
+Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
+  final plaintext = Uint8List.fromList(utf8.encode(message));
+  final paddedPlaintext = padPlaintext(plaintext);
+
+  final cipher = CBCBlockCipher(AESFastEngine())
+    ..init(
+      true,
+      ParametersWithIV(KeyParameter(key), iv),
+    );
+
+  return cipher.process(Uint8List.fromList(paddedPlaintext));
+}
+
+Uint8List padPlaintext(Uint8List plaintext) {
+  final blockSize = 16;
+  final paddedLength = blockSize * ((plaintext.length + blockSize - 1) ~/ blockSize);
+  final paddingLength = paddedLength - plaintext.length;
+  final paddedPlaintext = Uint8List(paddedLength)..setAll(0, plaintext);
+  paddedPlaintext.fillRange(plaintext.length, paddedLength, paddingLength);
+  return paddedPlaintext;
+}
+
+void main() {
+  final key = Uint8List.fromList(utf8.encode('your_secret_key_here'));
+  final iv = Uint8List(16); // Initialization Vector
+  final message = 'your_note_here';
+
+  final encryptedMessage = encryptMessage(key, iv, message);
+  print('Encrypted message: ${base64.encode(encryptedMessage)}');
+}
 
 # Known Issues:
 
