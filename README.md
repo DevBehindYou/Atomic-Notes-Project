@@ -92,6 +92,9 @@ flutter_lints dbms google_nav_bar hive hive_flutter lutter_slidable flutter_svg 
 
 - key[32bit] + vi[16bit]
 - base64 + base32
+  
+Example:
+
 Uint8List encryptMessage(Uint8List key, Uint8List iv, String message) {
 
   final plaintext = Uint8List.fromList(utf8.encode(message));
