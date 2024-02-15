@@ -1,6 +1,5 @@
 # Atomic Notes Project
 ![image](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/a6519e43-0e3e-4ce6-aebe-d508a1aadf97)
-__________________________________________________________________
 
 All you need is a simple yet effective note-taking application
 
@@ -17,6 +16,7 @@ All you need is a simple yet effective note-taking application
 - The application is packed with a beautiful UI and user-friendly design.
 - Optimized and power-full.
 ![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
+__________________________________________________________________
 - 📫 You can reach me from email: DevBehindYou@gmail.com
 - Ongoing Project.
 - source code will available soon.
