@@ -25,15 +25,19 @@ All you need is a simple yet effective note-taking application
 >App Stability:
 App crashes are minimized, but if encountered, ensure the latest version is installed.
 If crashes persist, provide device details and steps to reproduce for support.
+>
 >Sync Errors:
 Unstable internet connections may lead to sync errors. Verify network stability.
 Manually trigger sync if automatic sync fails to resolve temporary network issues.
+>
 >Biometric Authentication:
 Biometric authentication enhances security. Ensure device and app support.
 If authentication issues arise, re-enroll biometric data and verify app permissions.
+>
 >Device Lock Removal:
 Removing device lock can cause app instability or crashes. Recommend keeping it enabled.
 If instability occurs after lock removal, consider re-enabling it or contacting support.
+>
 >Multiple Password Attempts:
 Implement security measures to prevent brute-force attacks on non-biometric devices.
 Educate users on password strength and recommend enabling device lock for added security.
