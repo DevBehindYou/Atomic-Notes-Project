@@ -22,7 +22,7 @@ All you need is a simple yet effective note-taking application
 ![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
 
 
-#Roadmap:
+# Roadmap:
 
 Play Store Launch:
 
@@ -35,7 +35,7 @@ Develop web, iOS, Android, and Windows versions of the app to cater to diverse u
 Ensure consistent features and user experience across all platforms.
 Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
 
-#Troubleshooting:
+# Troubleshooting:
 >App Stability:
 App crashes are minimized, but if encountered, ensure the latest version is installed.
 If crashes persist, provide device details and steps to reproduce for support.
