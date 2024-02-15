@@ -21,6 +21,20 @@ All you need is a simple yet effective note-taking application
 - Optimized and power-full.
 ![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
 
+
+#Roadmap:
+
+Play Store Launch:
+
+Aim to launch the app on the Google Play Store to reach a wider audience.
+Follow platform-specific guidelines for app submission and optimization.
+
+Platform Independence:
+
+Develop web, iOS, Android, and Windows versions of the app to cater to diverse user preferences.
+Ensure consistent features and user experience across all platforms.
+Leverage cross-platform development frameworks like Flutter or React Native for efficient development.
+
 #Troubleshooting:
 >App Stability:
 App crashes are minimized, but if encountered, ensure the latest version is installed.
