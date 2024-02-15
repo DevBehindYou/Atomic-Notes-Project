@@ -20,6 +20,10 @@ All you need is a simple yet effective note-taking application
 - The application is packed with a beautiful UI and user-friendly design.
 - Optimized and power-full.
 
+![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
+
+
+
 -System Requirements: 
 Operating System: Android, ios comming soon 
 Minimum SDK Level: 23 (Android 6.0, Marshmallow)
