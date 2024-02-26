@@ -15,7 +15,6 @@ All you need is a simple yet effective note application. Atomic Notes is a robus
 - For the safety of notes, cloud backup is available in the application with a fast cloud sync function. 
 - The application is packed with a beautiful UI and user-friendly design.
 - Optimized and power-full.
-![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
 __________________________________________________________________
 - 📫 You can reach me from email: DevBehindYou@gmail.com
 - Ongoing Project.
@@ -124,7 +123,7 @@ void main() {
   
   print('Encrypted message: ${base64.encode(encryptedMessage)}');
 }
-
+![20240215_162548 (1)](https://github.com/DevBehindYou/Atomic-Notes-Project/assets/147663456/82a66baf-8332-4b2a-b1e4-6825f1e06bf1)
 
 
 
